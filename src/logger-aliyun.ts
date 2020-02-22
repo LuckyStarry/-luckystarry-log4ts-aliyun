@@ -70,7 +70,9 @@ export class LoggerAliyun implements Logger {
         AccessKeyID: process.env.ALIYUN_SLS_ACCESS_KEY_ID,
         AccessKeySecret: process.env.ALIYUN_SLS_ACCESS_KEY_SECRET,
         SecurityToken: process.env.ALIYUN_SLS_SECURITY_TOKEN,
-        Topic: process.env.ALIYUN_SLS_TOPIC
+        Topic: process.env.ALIYUN_SLS_TOPIC,
+        Project: process.env.ALIYUN_SLS_PROJECT,
+        LogStore: process.env.ALIYUN_SLS_LOGSTORE
       },
       config
     )
