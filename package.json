@@ -1,6 +1,6 @@
 {
   "name": "luckystarry-log4ts-aliyun",
-  "version": "1.0.0-3",
+  "version": "1.0.0",
   "description": "一个简单的日志记录组件",
   "scripts": {
     "prebuild": "del-cli dist -f",
