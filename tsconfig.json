@@ -1,0 +1,16 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es5",
+    "isolatedModules": false,
+    "lib": ["dom", "es5", "es2015"],
+    "sourceMap": true,
+    "declaration": true,
+    "pretty": true,
+    "outDir": "dist"
+  }
+}
