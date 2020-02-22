@@ -55,6 +55,6 @@
   },
   "dependencies": {
     "@alicloud/log": "^1.1.1",
-    "luckystarry-log4ts": "^1.0.1-1"
+    "luckystarry-log4ts": "^1.0.1-2"
   }
 }
